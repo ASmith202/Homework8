@@ -66,10 +66,10 @@ function shuffleArray(array) {
   }
 }
 
-// Handle "Next Question" button click
+// "Next Question" button click
 document.getElementById('next-btn').addEventListener('click', () => {
   if (currentQuestionIndex < questionsData.length - 1) {
-    currentQuestionIndex++;  // Move to the next question
+    currentQuestionIndex++;  // Move on to the next question
     displayQuestion(questionsData[currentQuestionIndex]);
     document.getElementById('score').textContent = '';  // Clear score message
   } else {

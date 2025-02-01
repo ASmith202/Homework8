@@ -1,20 +1,53 @@
-/* Styling for the music image */
-.music-image {
-  width: 250px;  /* You can adjust the size of the image */
-  height: 250px;
-  object-fit: cover;  /* Ensures the image does not stretch */
-  border-radius: 10px;  /* Rounded corners */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  /* Optional shadow effect */
-}
-
-/* Optional additional styles for the trivia game */
+/* General body styles */
 body {
   font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
+  background-color: #a72353; /* Background color for the body */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
 }
 
+/* Styling for the music container */
+.music-container {
+  text-align: center;
+  background-color: #670c4b; /* Container background color */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  width: 100%;
+}
+
+/* Styling for the album image (using a single class for consistency) */
+.album-image {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(90, 175, 194, 0.1); /* Light shadow */
+  margin-bottom: 20px; /* Space between image and title */
+}
+
+/* Music title styling */
+.music-title {
+  font-size: 24px;
+  margin: 10px 0;
+  color: #897aee; /* Soft purple color for the title */
+}
+
+/* Music description styling */
+.music-description {
+  font-size: 16px;
+  color: #f15a19; /* Bright orange for description */
+}
+
+/* Header styling */
 h1 {
-  color: #333;
+  color: #8807eb; /* Purple color for the main header */
+  font-size: 2rem;
+  margin-bottom: 20px;
 }
-
   
