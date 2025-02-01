@@ -1,28 +1,20 @@
+/* Styling for the music image */
+.music-image {
+  width: 250px;  /* You can adjust the size of the image */
+  height: 250px;
+  object-fit: cover;  /* Ensures the image does not stretch */
+  border-radius: 10px;  /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  /* Optional shadow effect */
+}
 
+/* Optional additional styles for the trivia game */
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-    background-color: #f8f9fa;
-  }
-  
-  .container {
-    text-align: center;
-    max-width: 600px;
-    padding: 20px;
-    background-color: #ffffff;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  }
-  
-  #score {
-    font-size: 1.2em;
-    font-weight: bold;
-  }
-  
-  button {
-    width: 150px;
-  }
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+h1 {
+  color: #333;
+}
+
   
