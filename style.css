@@ -1,7 +1,7 @@
 /* General body styles */
 body {
   font-family: Arial, sans-serif;
-  background-color: #a72353; /* Background color for the body */
+  background-color: #a72353; 
   display: flex;
   justify-content: center;
   align-items: center;
@@ -13,7 +13,7 @@ body {
 /* Styling for the music container */
 .music-container {
   text-align: center;
-  background-color: #670c4b; /* Container background color */
+  background-color: #670c4b; 
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -21,32 +21,32 @@ body {
   width: 100%;
 }
 
-/* Styling for the album image (using a single class for consistency) */
+/* Styling for the album image */
 .album-image {
   width: 250px;
   height: 250px;
   object-fit: cover;
   border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(90, 175, 194, 0.1); /* Light shadow */
-  margin-bottom: 20px; /* Space between image and title */
+  box-shadow: 0 4px 8px rgba(90, 175, 194, 0.1); 
+  margin-bottom: 20px; 
 }
 
 /* Music title styling */
 .music-title {
   font-size: 24px;
   margin: 10px 0;
-  color: #897aee; /* Soft purple color for the title */
+  color: #897aee; 
 }
 
-/* Music description styling */
+/*Music description styling */
 .music-description {
   font-size: 16px;
-  color: #f15a19; /* Bright orange for description */
+  color: #f15a19; 
 }
 
-/* Header styling */
+/* Main Header styling */
 h1 {
-  color: #8807eb; /* Purple color for the main header */
+  color: #8807eb; 
   font-size: 2rem;
   margin-bottom: 20px;
 }
